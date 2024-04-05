@@ -76,7 +76,6 @@ const App = () => {
         )}
         {selectedImage && (
           <div className="preview-container">
-            <img src={selectedImage} alt="Selected" className="preview-image" />
             <button onClick={copyByteArray} className="copy-button">
               Copy Byte Array
             </button>
